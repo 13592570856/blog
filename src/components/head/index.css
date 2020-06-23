@@ -1,0 +1,30 @@
+.head>p{
+    color: #757575;
+    font-size: 14px;
+}
+.title{
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 30px;
+    color: #515151;
+}
+
+.nav-list{
+    height: 50px;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+
+}
+.nav-list>ul{
+    display: flex;
+    padding: 0 20px;
+}
+.nav-list>ul>li{
+    list-style: none;
+    margin-right: 50px;
+}
+.nav-list>ul>li>a{
+    color: #757575;
+    cursor: pointer;
+    text-decoration:none;
+}
