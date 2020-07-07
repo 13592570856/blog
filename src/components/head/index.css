@@ -28,3 +28,6 @@
     cursor: pointer;
     text-decoration:none;
 }
+.nav-list>ul>li>a:hover{
+    color: #000;
+}

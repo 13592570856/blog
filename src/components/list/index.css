@@ -1,4 +1,4 @@
-.list-box{
+.list-box {
     height: 150px;
     margin-bottom: 40px;
     border-bottom: 1px solid #ededed;
@@ -6,12 +6,21 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.list-head>p{
+
+.list-head > a {
     font-size: 26px;
-    color: #21759b;
+    color: #21759b !important;
     margin: 0 !important;
+    text-decoration:none;
 }
-.list-footer{
+
+.list-content {
+    font-size: 15px;
+    color: #757575;
+    line-height: 1.5;
+}
+
+.list-footer {
     margin-top: 14px;
     margin-bottom: 10px;
     font-size: 13px;

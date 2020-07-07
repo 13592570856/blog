@@ -1,0 +1,28 @@
+
+.footer{
+    height: 130px;
+    margin-top: 100px;
+}
+.footer-like{
+    height: 60px;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    font-size: 14px;
+    color: #757575;
+}
+.footer-like>ul{
+    display: flex;
+}
+.footer-like>ul>li{
+    list-style: none;
+    line-height: 2.2;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.footer-audit{
+    height: 70px;
+    line-height: 70px;
+    font-size: 14px;
+    color: #757575;
+    text-align: center;
+}

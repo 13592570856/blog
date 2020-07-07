@@ -83,5 +83,15 @@ let config = [
             delay: 300,
         })
     },
+    {
+        name: 'details',
+        path: '/details',
+        exact: true,
+        component: Loadable({
+            loader: () => import('../pages/details/index.js'),
+            loading: () => <div/>,
+            delay: 300,
+        })
+    }
 ];
 export default config;

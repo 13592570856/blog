@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: #f4f4f4;
+        }
+        .box{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .main{
+            width: 420px;
+            height: 420px;
+            background-color: white;
+            border-radius: 5px;
+            margin-top: 100px;
+            border: 1px solid #e1e2e3;
+            padding: 40px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .main-title{
+            color: #5fbeaa;
+            font-weight: 700;
+            font-size: 24px;
+        }
+        .main-form{
+            margin-top: 60px;
+            width: 100%;
+        }
+        .main-form>input{
+            line-height: 38px;
+            background-color: #FFFFFF;
+            border: 1px solid #E3E3E3;
+            border-radius: 4px;
+            color: #565656;
+            padding: 7px 12px;
+            box-sizing: border-box;
+            height: 38px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .main-submit{
+            height: 38px;
+            background-color: #fb6d9d !important;
+            border: 1px solid #fb6d9d !important;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 38px;
+            width: 100%;
+            text-align: center;
+            white-space: nowrap;
+            border-radius: 4px;
+            color: #ffffff;
+            cursor: pointer;
+            outline: none;
+            margin-top: 40px;
+
+        }
+        .main-password{
+            width: 100%;
+            text-align: left !important;
+            font-size: 14px;
+            color: #797979;
+            margin-top: 34px;
+            cursor: pointer;
+        }
+        .register{
+              margin-top: 30px;
+              font-size: 14px;
+              color: #797979;
+          }
+        .register>a{
+            font-size: 14px;
+            color: #5fbeaa!important;
+            font-weight: 600;
+            text-decoration:none
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="main">
+        <div class="main-title">
+            登录
+        </div>
+        <div class="main-form">
+            <input type="text">
+            <input type="text">
+            <button class="main-submit">登录</button>
+        </div>
+        <div class="main-password">
+            忘记密码
+        </div>
+
+    </div>
+    <div class="register">还没有账号? <a href="register.html">注册</a> </div>
+</div>
+
+
+</body>
+</html>
